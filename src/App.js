@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Checkout from "./components/Checkout";
 import ProductList from "./components/ProductList";
+import TestCases from "./components/TestCases";
+import PageNotFound from "./components/PageNotFound";
 
 const App = () => {
   return (
@@ -12,7 +14,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<ProductList />} />
         <Route path="checkout" element={<Checkout />} />
-        {/* <Route path="*" element={<NoPage />} /> */}
+        <Route path="test-cases" element={<TestCases />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </BrowserRouter>
   );
