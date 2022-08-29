@@ -2,16 +2,19 @@
     {
         "code" : "R01",
         "name" : "Red Plate",
-        "price" : 32.95
+        "price" : 32.95,
+        "color" : "red"
     },
     {
         "code" : "G01",
         "name" : "Green Plate",
-        "price" : 24.95
+        "price" : 24.95,
+        "color" : "green"
     },
     {
         "code" : "B01",
         "name" : "Blue Plate",
-        "price" : 7.95
+        "price" : 7.95,
+        "color" : "blue"
     }
 ]

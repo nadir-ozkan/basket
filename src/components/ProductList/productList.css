@@ -1,0 +1,51 @@
+img {
+    width: 100px;
+    border: 1px solid beige;
+    margin-right: 1rem;
+}
+
+header {
+    background-color: darkgray;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    display: flex;
+    padding: 1rem;
+}
+
+.product__details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.product__name {
+    font-style: italic;
+    font-size: 1.25rem;
+    padding: 0 0.25rem;
+}
+
+.product__price {
+    text-align: right;
+    color: gray;
+    padding: 0 0.25rem;
+}
+
+.add-to-cart {
+    background-color: darkgray;
+    color: white;
+    width: 100%;
+    border: 2px solid beige;
+    padding: 0.5rem;
+    font-weight: 700;
+    max-width: 400px;
+}
