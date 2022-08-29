@@ -35,12 +35,12 @@ Returns the basket total after the delivery rules and offers applied to the prod
 
 ## class Offer(calcFunction)
 
-Offer class should be initialized with a calculation function which should have a products param. This calculation function will then be applied to baskets products list and the modified products list will be returned.
+Offer class should be initialized with a calculation function which should have a products param. This calculation function will then be applied to the basket's product list and the modified product list will be returned.
 
 # About UI
 
-A simple products catalogue can be seen in home page. Add to cart button can be used to add products to the cart. Relevant total will be displayed immediately after offers and delivery rules applied.
+A simple product catalogue can be seen in home page. Add to cart button can be used to add products to the cart. Relevant total will be displayed immediately after offers and delivery rules are applied.
 
-Clicking on cart icon will reset the cart content. This feature is added only for testibility purpose.
+Clicking on cart icon will reset the cart content. This feature is added only for testability purposes.
 
-To visulaze test cases a _/test-cases_ route is added to the project. Here all the test cases could be run wiht corresponding buttons. It is advised to display console screen in order to see some more details.
+To visualize test cases a _/test-cases_ route is added to the project. Here all the test cases could be run width corresponding buttons. It is advised to display console screen in order to see more details.
