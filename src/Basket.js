@@ -16,13 +16,16 @@ class Basket {
   }
 
   add(productCode) {
-    this.products.push(
-      // push a shallow copy of the object to the array
-      Object.assign(
-        {},
-        this.catalogue.find((item) => item.code === productCode)
-      )
-    );
+    return new Promise((resolve) => {
+      this.products.push(
+        // push a shallow copy of the object to the array
+        Object.assign(
+          {},
+          this.catalogue.find((item) => item.code === productCode)
+        )
+      );
+      resolve(this.products);
+    });
   }
 
   _applyOffers() {
