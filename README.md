@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# Lean Scale Basket Task
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## To Run The App
 
 In the project directory, use:
+
+### `npm install`
 
 ### `npm start`
 
