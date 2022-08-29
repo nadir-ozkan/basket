@@ -1,0 +1,12 @@
+[
+    {
+        "code" : "Rule02",
+        "maxTotal" : 90,
+        "rate" : 2.95
+    },
+    {
+        "code" : "Rule01",
+        "maxTotal" : 50,
+        "rate" : 4.95
+    }
+]
