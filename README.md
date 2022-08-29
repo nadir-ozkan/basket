@@ -37,6 +37,8 @@ Offer class should be initialized with a calculation function which should have 
 
 # About UI
 
-A simple products catalogue can be seen in home page. Add to cart button can be used to add products to the cart. Clicking on cart icon will reset the cart content. This feature is added only for testibility purpose.
+A simple products catalogue can be seen in home page. Add to cart button can be used to add products to the cart. Relevant total will be displayed immediately after offers and delivery rules applied.
 
-To visulaze test cases a /test-cases route is added to the project. Here all the test cases could be run wiht corresponding buttons. It is advised to display console screen in order to see some more details.
+Clicking on cart icon will reset the cart content. This feature is added only for testibility purpose.
+
+To visulaze test cases a _/test-cases_ route is added to the project. Here all the test cases could be run wiht corresponding buttons. It is advised to display console screen in order to see some more details.
